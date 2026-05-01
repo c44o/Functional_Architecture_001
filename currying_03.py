@@ -19,4 +19,7 @@ def tag(tag_name: str, attr: dict, value: str) -> str:
 
     return f"<{tag_name}{attrs_str}>{value}</{tag_name}>"
 
-print(tag("li", {"class": "list-group"}, "item 23"))
+
+li = tag("li")
+li_class = li({"class": "list-group"})
+print(li_class("item 23"))
