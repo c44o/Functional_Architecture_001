@@ -3,7 +3,6 @@ from pymonad.maybe import Just, Nothing
 
 MAX_DIFFERENCE = 4
 
-
 def begin():
     return Just((0, 0))
 
