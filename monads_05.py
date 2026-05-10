@@ -5,7 +5,6 @@ MAX_DIFFERENCE = 4
 def begin():
     return Just((0, 0))
 
-
 def is_balanced(left: int, right: int) -> bool:
     return abs(left - right) <= MAX_DIFFERENCE
 
