@@ -28,7 +28,6 @@ def do_action(action_name, actions_history):
 
     return State(stamina_computation)
 
-
 game = (
     player_state
     .then(do_action("run"))
