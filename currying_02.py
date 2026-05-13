@@ -1,6 +1,5 @@
 from pymonad.tools import curry
 
-
 #2.1
 
 @curry(2)
