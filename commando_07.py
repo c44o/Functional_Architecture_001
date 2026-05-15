@@ -1,7 +1,6 @@
 from functools import reduce
 from itertools import product
 
-
 def pairs(xs):
     if not xs:
         return tuple()
