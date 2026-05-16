@@ -7,7 +7,6 @@ def pairs(xs):
 
     return ((xs[0], xs[1]),) + pairs(xs[2:])
 
-
 def inside(n, m):
     return lambda cell: 1 <= cell[0] <= n and 1 <= cell[1] <= m
 
